@@ -41,6 +41,7 @@
     height: 500px;
     margin-top: 30px;
     padding-top: 80px;
+    display: inline-block;
 } 
 .headermain{
     width: 700px;
@@ -48,4 +49,9 @@
     background-color: rosybrown;
     border: 1px solid white;
     margin: 0 auto; 
+}
+.first{
+    height: 700px;
+    width: 100%;
+    background-color: grey;
 }
