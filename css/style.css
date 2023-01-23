@@ -146,3 +146,37 @@
     width: calc(17%);  
     border: 1px solid black;
 }
+.bottomfooter{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+}
+.flexfooter{
+    background-color: blue;
+    display: flex;
+    width: 1000px;
+    height:70px;
+    margin: 0 auto;
+    border: 1px solid white;
+    justify-content: space-between;
+    align-items: center;
+} 
+.logofooter{
+    border: 1px solid white;
+    flex-direction: row;
+    align-items: center;
+    background-color: azure;
+    height: 20px;
+    width: 50px;
+    padding-left: 7px;
+    
+}
+.buttonfooter{
+    border: 1px solid white;
+    flex-direction: row;
+    align-items: center;
+    background-color: azure;
+    height: 20px;
+    width: 50px;
+}
