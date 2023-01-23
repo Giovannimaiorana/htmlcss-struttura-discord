@@ -21,6 +21,8 @@
     background-color: blueviolet;
     width:250px;
     border: 1px solid white;
+    align-items: center;
+    flex-direction: row;
     
 }
 .link{
@@ -35,23 +37,74 @@
 .logoimg{
     padding-left: 10px;  
 }
-.bottom-header{
+.container1{
     background-color: blue;
     width: 100%;
     height: 500px;
-    margin-top: 30px;
-    padding-top: 80px;
-    display: inline-block;
+    padding-top: 80px; 
 } 
-.headermain{
+.contenuto1{
     width: 700px;
     height: 300px;
     background-color: rosybrown;
     border: 1px solid white;
     margin: 0 auto; 
-}
-.first{
-    height: 700px;
+} 
+.sezione1{
     width: 100%;
-    background-color: grey;
+    height: 700px;
+    background-color: azure;
+}
+.container2{
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+    padding-top: 80px; 
+    
+} 
+.contenuto2{
+    display: flex;
+    background-color: antiquewhite;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.contenutofoto{
+    width: calc(60%);
+    height: 100%;
+    background-color: lightblue;
+    border: 1px solid white 
+    ;
+}
+.contenutotesto{
+    width: calc(40%);
+    height: 100%;
+    background-color: lightpink;
+    border: 1px solid white;
+} 
+.container3{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;  
+} 
+.contenuto3{
+    display: flex;
+    background-color: antiquewhite;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.contenutotesto3{
+    width: calc(40%);
+    height: 100%;
+    background-color: lightpink;
+    border: 1px solid white;
+} 
+.contenutofoto3{
+    width: calc(60%);
+    height: 100%;
+    background-color: lightblue;
+    border: 1px solid white 
+    ;
 }
